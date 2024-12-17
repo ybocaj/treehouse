@@ -150,7 +150,7 @@ h1.exp {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 60px; /* from 6 to 60 */
   transition: all .5s;
 }
 
@@ -267,4 +267,26 @@ small {
 
 address {
   margin-bottom: 50px;
+}
+
+
+#boots {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: black; 
+}
+#ducati {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: firebrick; 
+}
+#greece {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: blue; 
+}
+#golf {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: green; 
 }
