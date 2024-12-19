@@ -135,11 +135,12 @@ header .profile-image:hover {
 }
 
 h1.exp {
-    align: center;
+    text-align: center;
     font-size: 4em;
 }
 
 .cardz {
+<<<<<<< HEAD
     margin: auto;
     padding: 20px 40px 40px;
     max-width: auto; /* 500px; */
@@ -148,6 +149,16 @@ h1.exp {
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     transition: all 0.5s;
+=======
+  margin: auto;
+  padding: 20px 40px 40px;
+/*  max-width: 500px; */
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px; /* from 6 to 60 */
+  transition: all .5s;
+>>>>>>> 5079d85c498afd758d95610305a61d75dde9d773
 }
 
 .cardz:hover {
@@ -259,5 +270,27 @@ small {
 }
 
 address {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+
+#boots {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: black; 
+}
+#ducati {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: firebrick; 
+}
+#greece {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: blue; 
+}
+#golf {
+  border-width: 5px 10px 10px 5px;
+  border-style: solid;
+  border-color: green; 
 }
